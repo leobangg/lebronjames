@@ -1,7 +1,7 @@
 p{
-color:green;
+color:black;
 font-size:30px;
-background-color:beige;
+background-color:white;
 }
 .good{
     font-size:100px;
@@ -9,3 +9,14 @@ background-color:beige;
 .id{
     font-size:10px;
 }
+
+@keyframes body {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+body {
+    background-color: red;
+    animation-name: body;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
